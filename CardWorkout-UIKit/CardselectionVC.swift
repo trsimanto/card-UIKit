@@ -10,22 +10,24 @@ import UIKit
 class CardselectionVC: UIViewController {
 
     @IBOutlet var cardImageView: UIImageView!
-    @IBOutlet var stopButton: UIButton!
-    @IBOutlet var restartButton: UIButton!
-    @IBOutlet var rulesButton: UIButton!
+    @IBOutlet var buttons: [UIButton]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        stopButton.layer.cornerRadius = 8
-        restartButton.layer.cornerRadius = 8
-        rulesButton.layer.cornerRadius = 8
-        // Do any additional setup after loading the view.
+        for button in buttons {
+            button.layer.cornerRadius = 8
+        }
     }
     
     @IBAction func stopButtonTapped(_ sender: UIButton) {
-        stopButton.setTitle("I have tapped", for: .normal)
+      //  stopButton.setTitle("I have tapped", for: .normal)
     }
     
-
+    @IBAction func reStartButtonTapped(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func rulesButtonTapped(_ sender: UIButton) {
+    }
+    
 }
