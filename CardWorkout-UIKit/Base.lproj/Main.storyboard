@@ -96,7 +96,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="reStartButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qCU-x4-cM0"/>
+                                    <action selector="restartButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8EP-6D-vfS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2k-Cy-V6p">
@@ -133,7 +133,6 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qrW-tW-q0A"/>
                                     <segue destination="B9n-Ei-M6t" kind="presentation" id="O2e-DQ-xXj"/>
                                 </connections>
                             </button>

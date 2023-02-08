@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8102F524299396A1005BF8FD /* dick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102F523299396A1005BF8FD /* dick.swift */; };
 		CEA43B282962C3D700A89DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA43B272962C3D700A89DD8 /* AppDelegate.swift */; };
 		CEA43B2A2962C3D700A89DD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA43B292962C3D700A89DD8 /* SceneDelegate.swift */; };
 		CEA43B2F2962C3D700A89DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA43B2D2962C3D700A89DD8 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8102F523299396A1005BF8FD /* dick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dick.swift; sourceTree = "<group>"; };
 		CEA43B242962C3D700A89DD8 /* CardWorkout-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardWorkout-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA43B272962C3D700A89DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA43B292962C3D700A89DD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				CEA43B302962C3D900A89DD8 /* Assets.xcassets */,
 				CEA43B322962C3D900A89DD8 /* LaunchScreen.storyboard */,
 				CEA43B352962C3D900A89DD8 /* Info.plist */,
+				8102F523299396A1005BF8FD /* dick.swift */,
 			);
 			path = "CardWorkout-UIKit";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8102F524299396A1005BF8FD /* dick.swift in Sources */,
 				CEA43B3C2962C63800A89DD8 /* CardselectionVC.swift in Sources */,
 				CEA43B282962C3D700A89DD8 /* AppDelegate.swift in Sources */,
 				CEA43B2A2962C3D700A89DD8 /* SceneDelegate.swift in Sources */,
