@@ -10,16 +10,12 @@ import UIKit
 class CardselectionVC: UIViewController {
     
     @IBOutlet var cardImageView: UIImageView!
-    @IBOutlet var buttons: [UIButton]!
     var cards : [UIImage?] = Dick.allValues
     var timer : Timer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         startTimer()
-        for button in buttons {
-            button.layer.cornerRadius = 8
-        }
     }
     
     
